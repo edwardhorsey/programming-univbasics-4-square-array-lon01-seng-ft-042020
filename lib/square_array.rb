@@ -5,7 +5,7 @@ def square_array(array)
   
   while array[counter] < array.length do
    quora = array[counter]**2
-    newarray.push(array[counter]**2)
+    newarray.push(quora)
     counter += 1
   end
   
